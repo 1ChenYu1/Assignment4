@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 205375718}
   - component: {fileID: 205375720}
   - component: {fileID: 205375719}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Pacman_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -508,7 +508,7 @@ GameObject:
   - component: {fileID: 248031767}
   - component: {fileID: 248031769}
   - component: {fileID: 248031768}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Ghost3Right1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -613,7 +613,7 @@ GameObject:
   - component: {fileID: 269846474}
   - component: {fileID: 269846476}
   - component: {fileID: 269846475}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Pacman_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1026,7 +1026,7 @@ GameObject:
   - component: {fileID: 800935061}
   - component: {fileID: 800935063}
   - component: {fileID: 800935062}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1454,7 +1454,7 @@ GameObject:
   - component: {fileID: 1151366590}
   - component: {fileID: 1151366592}
   - component: {fileID: 1151366591}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Ghost4Right1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1559,7 +1559,7 @@ GameObject:
   - component: {fileID: 1204213741}
   - component: {fileID: 1204213743}
   - component: {fileID: 1204213742}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Pacman_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1664,7 +1664,7 @@ GameObject:
   - component: {fileID: 1259990107}
   - component: {fileID: 1259990109}
   - component: {fileID: 1259990108}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: GhostRight1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2131,6 +2131,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2131287881}
   - {fileID: 800935061}
   - {fileID: 1980584723}
   - {fileID: 59706897}
@@ -2413,6 +2414,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1980584722}
   m_CullTransparentMesh: 1
+--- !u!1 &2131287880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2131287881}
+  - component: {fileID: 2131287883}
+  - component: {fileID: 2131287882}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2131287881
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131287880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1568731286}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2131287882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131287880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
+  m_Color: {r: 0.09740115, g: 0.9056604, b: 0.69796807, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2131287883
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131287880}
+  m_CullTransparentMesh: 1
 --- !u!1 &2131794022
 GameObject:
   m_ObjectHideFlags: 0
@@ -2424,7 +2501,7 @@ GameObject:
   - component: {fileID: 2131794023}
   - component: {fileID: 2131794025}
   - component: {fileID: 2131794024}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Ghost2Right1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
